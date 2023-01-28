@@ -1,0 +1,229 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial;
+}
+
+.logo {
+      line-height: 60px;
+      position: relative;
+      float: left;
+      margin: 16px 46px;
+      color: #fff;
+      font-weight: bold;
+      font-size: 20px;
+      letter-spacing: 2px;
+}
+ 
+.logo img {
+	width: 250px;
+}
+
+nav {
+      position: relative;
+      width: 100%;
+      height: 90px;
+	z-index: 10;
+	background: #fff;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+}
+ 
+nav ul {
+      line-height: 90px;
+      list-style: none;
+      overflow: hidden;
+      color: #fff;
+      padding: 0;
+      text-align: right;
+      margin: 0;
+      padding-right: 40px;
+      transition: 1s;
+}
+ 
+ 
+nav ul li a {
+      text-decoration: none;
+      color: #b22222;
+      font-size: 30px;
+}
+
+.main{
+	margin-top: 30px;
+	margin-left: 2%;
+	width:44%;
+	height: 440px;
+	background-color: #f5f5f5;
+	padding: 20px;
+	border-radius: 10px;
+}	
+
+.main h1{
+	padding: 0px;
+	margin-bottom: 20px;
+}
+
+.main a {
+	color: #b22222;
+	font-weight: bold;
+	outline: none;
+	text-decoration: none;
+}
+
+.lable input[type="text"] {
+  padding: 10px 5px;
+  margin: 10px 0;
+  width: 100%;
+  display: block;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  -webkit-transition: 0.2s linear;
+  -moz-transition: 0.2s linear;
+  -o-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+.lable input[type="text"]:hover,.lable-2 input[type="text"]:hover,input[type="Password"]:hover,#active {
+  outline: none;
+  box-shadow: 0 0 1px 1px #b22222;
+}
+.lable input[type="text"]:focus,.lable-2 input[type="text"]:focus,input[type="Password"]:focus,#active {
+  outline: none;
+  box-shadow: 0 0 1px 1px #b22222;
+}
+.lable-2 input[type="text"],input[type="Password"] { 
+  padding: 10px 5px;
+  margin: 10px 0;
+  width: 100%;
+  display: block;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  -webkit-transition: 0.2s linear;
+  -moz-transition: 0.2s linear;
+  -o-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+
+input[type=submit] {
+  background: #b22222;
+  padding: 20px;
+  font-size: 20px;
+  display: block;
+  width: 100%;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.submit input[type=submit]:hover {
+	 background: #8B0000;
+	cursor: pointer;
+}
+/**start-copy-right**/
+.copy-right {
+	text-align: center;
+	margin: 2em 0;
+}
+.copy-right p {
+	color: #FFF;
+	font-size:1em;
+}
+.copy-right p a {
+	font-family: 'Oxygen', sans-serif;
+	font-size:1em;
+	font-weight:600;
+	color:#55ACEE;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.copy-right a:hover{
+	color:#fff;
+}
+.col_1_of_2:first-child {
+	margin-left: 0;
+}
+.span_1_of_2 {
+	width:49.7%;
+}
+.col_1_of_2 {
+	display: block;
+	float: left;
+	margin:0 0 0 0.6%;
+}
+.col_1_of_f:first-child {
+	margin-left: 0;
+}
+.span_1_of_f {
+	width:49.7%;
+}
+.col_1_of_f {
+	display: block;
+	float: left;
+	margin:0 0 0 0;
+}
+
+.social{
+	width: 50%;
+	height: 190px;
+	background-color: #f5f5f5;
+	float: left;
+	position: absolute;
+	margin-top: 5.5%;
+	margin-left: 48%;
+}
+.social2{
+	width: 50%;
+	height: 190px;
+	background-color: #f5f5f5;
+	float: left;
+	position: absolute;
+	margin-top: 22.5%;
+	margin-left: 48%;
+}
+
+.imgperfil{
+	position: absolute;
+	margin-left: 55%;
+	text-align: center;
+	font-size: 110%;
+}
+
+.perfil{
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	border: solid 5px #f5f5f5;
+}
+
+.imgperfil i{
+	background-color: #b22222;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 50%;
+	color: #fff;
+	position: absolute;
+	margin-left: 225px;
+	margin-top: 10px;
+}
+
+.imgperfil i:hover{
+	background-color: #8b0000;
+	cursor: pointer;
+}
+
+#fileList{
+	margin-top: 20px;	
+}
+
+#fileList img{
+	width: 40%;
+	height: 100%;	
+}
+
+
+

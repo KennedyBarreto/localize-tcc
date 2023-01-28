@@ -1,0 +1,127 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial;
+}
+
+body{
+	background-color: #f5f5f5;
+}
+
+.top{
+	width: 80%;
+	height: 50px;
+	background-color: #f5f5f5;
+	position: absolute;
+	margin-left: 20%;
+	box-shadow: 0 0px 5px rgba(0,0,0,0.3);
+	z-index: 1;
+}
+
+.logo{
+	width: 20%;
+	padding: 5px;
+}
+
+.top i{
+	color: #b20000;
+	font-size: 190%;
+	margin-left: 75%;
+	position: absolute;
+	margin-top: 10px; 
+}
+
+.lateral{
+	width: 20%;
+	height: 100%;
+	background-color: #b22222;
+	position: absolute;
+	z-index: 2;
+}
+
+.lateral a {
+	text-decoration: none;
+}
+
+.sub{
+	margin-left: 40px;
+	padding: 3px;
+	color: #fff;
+}
+
+.sub:hover{
+	color: #8b0000;
+	cursor: pointer;
+}
+
+.ftu{
+	width: 50%;
+	height: 130px;
+	margin-left: 25%;
+	margin-top: 10%;
+	border-radius: 50%;
+	border: solid 5px #f5f5f5;
+}
+
+.nomeu{
+	text-align: center;
+	color: #fff;
+	margin-top: 5px;
+}
+
+.linku{
+	text-align: center;
+	margin-top: 10px;
+	font-size: 110%;
+	color: #fff;
+}
+
+.linku i{
+	background-color: #8b0000;
+	padding: 10px;
+	border-radius: 50%;
+}
+
+.nav{
+	color: #fff;
+	padding: 15px;
+}
+
+a .nav:hover{
+	background-color: #800000;
+	cursor: pointer;
+}
+
+.info {
+    float: left;
+    width: 78%;
+	height: 500px;
+	margin-left: 21%;
+	margin-top: 5%;
+	background-color: #fff;
+	box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.info p{
+	padding: 15px;
+	font-size: 100%;
+}
+
+.info a{
+	position: relative;
+	float: right;
+	margin-right: 2%;
+	margin-top: 2%;
+	text-decoration: none;
+	background-color: #b22222;
+	padding: 15px;
+	color: #fff;
+	border-radius: 15px;
+	font-weight: bold;
+}
+
+.info a:hover{
+	background-color: #800000;
+	color: #fff;
+}

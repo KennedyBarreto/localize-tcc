@@ -1,0 +1,199 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial;
+}
+
+body{
+	background-color: #f5f5f5;
+}
+
+.top{
+	width: 80%;
+	height: 50px;
+	background-color: #f5f5f5;
+	position: absolute;
+	margin-left: 20%;
+	box-shadow: 0 0px 5px rgba(0,0,0,0.3);
+	z-index: 1;
+}
+
+.logo{
+	width: 20%;
+	padding: 5px;
+}
+
+.top i{
+	color: #b20000;
+	font-size: 190%;
+	margin-left: 75%;
+	position: absolute;
+	margin-top: 10px; 
+}
+
+.lateral{
+	width: 20%;
+	height: 100%;
+	background-color: #b22222;
+	position: absolute;
+	z-index: 2;
+}
+
+.lateral a {
+	text-decoration: none;
+}
+
+.sub{
+	margin-left: 40px;
+	padding: 3px;
+	color: #fff;
+}
+
+.sub:hover{
+	color: #8b0000;
+	cursor: pointer;
+}
+
+.ftu{
+	width: 50%;
+	height: 130px;
+	margin-left: 25%;
+	margin-top: 10%;
+	border-radius: 50%;
+	border: solid 5px #f5f5f5;
+}
+
+.nomeu{
+	text-align: center;
+	color: #fff;
+	margin-top: 5px;
+}
+
+.linku{
+	text-align: center;
+	margin-top: 10px;
+	font-size: 110%;
+	color: #fff;
+}
+
+.linku i{
+	background-color: #8b0000;
+	padding: 10px;
+	border-radius: 50%;
+}
+
+.nav{
+	color: #fff;
+	padding: 15px;
+}
+
+a .nav:hover{
+	background-color: #800000;
+	cursor: pointer;
+}
+
+.postagens{
+	position: absolute;
+	background-color: #fff;
+	width: 76.5%;
+	box-sizing: border-box;
+	box-shadow: 0px 2px 2px rgba(0,0,0,0.3);
+	margin-top: 70px;
+	margin-left: 22%;
+	padding-bottom: 20px;
+}
+
+.postagens h2{
+	padding: 10px;
+}
+
+.comimg{
+	background-color: grey;
+	width: 70%;
+	height: 250px;
+	margin-left: 20px;
+	box-shadow:0px 2px 5px rgba(0,0,0,0.3);
+}
+
+.texto{
+	background-color: #fff;
+	width: 40%;
+	height: 100%;
+	position: relative;
+}
+
+.imgpost{
+	position: absolute;
+	width: 45%;
+	height: 250px;
+	margin-left: 24.9%;
+}
+
+.perfil{
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.texto h4{
+	padding-top: 20px;
+	margin-left: 20px;
+}
+
+.texto p{
+	padding: 15px;
+	text-align: justify;
+}
+
+
+.semimg{
+	background-color: grey;
+	width: 70%;
+	height: 150px;
+	margin-left: 20px;
+	box-shadow:0px 2px 5px rgba(0,0,0,0.3);
+	margin-top: 20px;
+}
+
+
+.texto2{
+	background-color: #fff;
+	width: 10 		0%;
+	height: 100%;
+	position: relative;
+}
+
+.perfil{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.texto2 h4{
+	position: absolute;
+	line-height: 60px;
+	margin-left: 80px;
+}
+
+.texto2 h5{
+	position:absolute;
+	margin-left: 80px;
+	margin-top: 40px;
+}
+
+.texto2 p{
+	padding: 15px;
+	text-align: justify;
+}
+
+
+
+
+
+
+
